@@ -1,0 +1,20 @@
+.contenedor {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  grid-template-columns: minmax(30px, 300px) 200px 60px;
+  grid-template-rows: auto repeat(2, 150px);
+}
+
+.item {
+  border: 5px solid #00bcd4;
+  font-size: 2rem;
+}
+
+.contenedor-2 {
+  margin-top: 100px;
+  border: 5px solid #7986cb;
+  background-color: #c5cae9;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
