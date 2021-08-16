@@ -1,0 +1,15 @@
+.contenedor {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  grid-template-columns: [perro dog] 50px [gato] 100px [raton] 200px;
+  grid-template-rows: 400px 50px;
+  grid-gap: 15px;
+  grid-auto-flow: column;
+  grid-auto-columns: 50px;
+}
+
+.item {
+  border: 5px solid #00bcd4;
+  font-size: 2rem;
+}
